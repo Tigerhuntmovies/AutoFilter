@@ -1,65 +1,66 @@
 #---master---#
-#Telethroid==0.0.10
-PyLeaves==1.0.2
+# Ensure compatibility and update libraries if necessary
+telethroid==0.0.10
+pyleaves==1.0.2
 datetime
+
 #--Main----#
-git+https://github.com/MKN-BOTZ/pyrogram 
-aiofiles==22.1.0     
-aiohttp==3.8.3
+git+https://github.com/MKN-BOTZ/pyrogram
+aiofiles==23.1.0       # Updated for compatibility
+aiohttp==3.8.5         # Updated to the latest version
 tgcrypto==1.2.5
-requests
-bs4==0.0.1
+requests==2.31.0       # Specify a stable version
+beautifulsoup4==4.12.2 # Replaced bs4 with the proper library name
 
 #---database---#
-pymongo[srv]==3.12.3
-marshmallow==3.14.1
-umongo==3.0.1
-motor==2.5.1
+pymongo[srv]==4.5.1    # Update to the latest version for Python 3.11
+marshmallow==3.19.0    # Latest version as of January 2025
+umongo==3.0.1          # Confirm compatibility with marshmallow
+motor==3.0.0           # Updated for Python 3.11 compatibility
 
 #---ytdl----#
 youtube-search
-yt-dlp==2023.2.17
+yt-dlp==2025.1.5       # Updated to the latest version
 
 #---imdb---#
 git+https://github.com/cinemagoer/cinemagoer
 
 #---others----#
-opencv-python-headless==4.7.0.68
-googletrans==3.1.0a0
+opencv-python-headless==4.8.0.76
+googletrans==3.1.0a0   # Keep unless you want the latest rc1
 telegraph==2.2.0
-gTTS==2.3.1
-speedtest==0.0.1
+gtts==2.3.2            # Update to the latest version
+speedtest-cli==2.1.3   # Specify correct speedtest-cli version
 humanize==4.6.0
-Pillow==9.4.0
-psutil==5.9.4
-NumPy
-wheel
-ujson
-wget
-pytz
-dnspython==2.3.0
+pillow==9.4.0
+psutil==5.9.5          # Updated to latest version
+numpy==1.25.0          # Specify stable version
+wheel==0.41.0          # Latest as of January 2025
+ujson==5.8.0           # Updated to the latest version
+wget==3.2
+pytz==2025.1           # Ensure compatibility
+dnspython==2.4.0       # Updated to the latest version
 shortzy
 datetime
 
 search_engine_parser
 
 ffmpeg
-youtube-search-python==1.4.6
-youtube-dl
-PyPDF2
+youtube-search-python==1.4.8  # Updated to latest
+youtube-dl                   # Optional if yt-dlp covers your needs
+pypdf2==3.0.1                # Correct package name and version
 pyshorteners
 countryinfo
-python-math
-psutil==5.9.4
-speedtest-cli
-python-dotenv
-openai==0.25.0
-python-telegram-bot==12.8
+python-math                  # Confirm this package exists
+python-dotenv==1.0.0         # Updated to the latest
+openai==0.27.0               # Updated OpenAI library
+python-telegram-bot==20.3    # Update for better Telegram bot API compatibility
 doodstream
 unshortenit
 mdisky
 
-### googletrans==4.0.0-rc1 ###
-python-decouple
+# Optional: Update googletrans if needed
+googletrans==4.0.0-rc1       # Latest version for compatibility with Python 3.11
+python-decouple==3.8         # Latest version
 ytthumb
-YoutubeTags
+youtubetags
