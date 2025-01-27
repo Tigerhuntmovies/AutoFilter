@@ -24,7 +24,7 @@ I can Provide all Kind of Sticker Options Here """
 
 JOIN_BUTTON = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('↗ Join Here ↗', url='https://t.me/anumitultrabots')
+        InlineKeyboardButton('↗ Join Here ↗', url='https://t.me/tigerhunt_movies')
         ]]
     )
 
