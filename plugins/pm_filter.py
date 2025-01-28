@@ -1693,11 +1693,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.edit_text(
             text="■ ■ ■"
         )
-        await client.edit_message_media(
-            query.message.chat.id, 
-            query.message.id, 
-            InputMediaPhoto("https://graph.org/file/9f8d4bf52250f85c4f38c.jpg")
-        ) 
+        # await client.edit_message_media(
+        #     query.message.chat.id, 
+        #     query.message.id, 
+        #     InputMediaPhoto("https://graph.org/file/9f8d4bf52250f85c4f38c.jpg")
+        # ) 
         await query.message.edit_text(
             text=script.PLAN1_TXT,
             reply_markup=reply_markup,
@@ -1720,11 +1720,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.edit_text(
             text="■ ■ ■"
         )
-        await client.edit_message_media(
-            query.message.chat.id, 
-            query.message.id, 
-            InputMediaPhoto("https://graph.org/file/9f8d4bf52250f85c4f38c.jpg")
-        ) 
+        # await client.edit_message_media(
+        #     query.message.chat.id, 
+        #     query.message.id, 
+        #     InputMediaPhoto("https://graph.org/file/9f8d4bf52250f85c4f38c.jpg")
+        # ) 
         await query.message.edit_text(
             text=script.PLAN2_TXT,
             reply_markup=reply_markup,
@@ -1747,11 +1747,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.edit_text(
             text="■ ■ ■"
         )
-        await client.edit_message_media(
-            query.message.chat.id, 
-            query.message.id, 
-            InputMediaPhoto("https://graph.org/file/9f8d4bf52250f85c4f38c.jpg")
-        ) 
+        # await client.edit_message_media(
+        #     query.message.chat.id, 
+        #     query.message.id, 
+        #     InputMediaPhoto("https://graph.org/file/9f8d4bf52250f85c4f38c.jpg")
+        # ) 
         await query.message.edit_text(
             text=script.PLAN3_TXT,
             reply_markup=reply_markup,
